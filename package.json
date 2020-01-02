@@ -3,5 +3,16 @@
   "version": "1.0.0",
   "repository": "https://github.com/tdd-tv/minicast-setup-mocha-unit-tests.git",
   "author": "TDD TV <tddtv.contact@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test-unit": "mocha -r chai/register-expect -r @babel/register src/test/unit -w"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.7.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
 }
