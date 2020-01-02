@@ -1,0 +1,7 @@
+{
+  "name": "minicast-setup-mocha-unit-tests",
+  "version": "1.0.0",
+  "repository": "https://github.com/tdd-tv/minicast-setup-mocha-unit-tests.git",
+  "author": "TDD TV <tddtv.contact@gmail.com>",
+  "license": "MIT"
+}
